@@ -1,14 +1,27 @@
-# CPU Scheduling Simulator (FCFS & SRTF)
+# محاكي وحدة المعالجة المركزية (FCFS & SRTF)
 
-A C# Windows Forms application designed to simulate and visualize CPU scheduling algorithms with a dynamic Gantt Chart representation.
+تطبيق مكتبي مبني بلغة سي شارب (C#) لمحاكاة وعرض خوارزميات جدولية وحدة المعالجة المركزية مع مخطط جانت الديناميكي.
 
-## 🚀 Features
-* FCFS (First-Come, First-Served): Non-preemptive scheduling algorithm implementation.
-* SRTF (Shortest Remaining Time First): Preemptive scheduling algorithm implementation.
-* Gantt Chart Visualization: Dynamic visual rendering of process execution timelines.
-* Performance Metrics: Automatic calculation of waiting time, turnaround time, and response time.
+## معلومات المجموعة والأعضاء
+* رمز المجموعة: YJ3N
+* الرقم السري: 931656
+* أسماء أعضاء المجموعة:
+  * أحمد محمود الديري
+  * مقتدى أحمد محمد علي
+  * محمد سيف الفاضل
 
-## 💻 Tech Stack
-* Language: C#
-* Framework: .NET / Windows Forms
-* IDE: Visual Studio
+## الخوارزميات والخصائص
+* الخوارزمية المطلوبة: SRTF مع FCFS.
+* خوارزمية الوارد أولاً يصدر أولاً (FCFS).
+* خوارزمية الوقت المتبقي الأقصر أولاً (SRTF).
+* رسم مخطط جانت الديناميكي لتنفيذ العمليات.
+* حساب أوقات الانتظار والنجاز والاستجابة تلقائياً.
+
+## بيئة العمل وطريقة التشغيل
+* لغة البرمجة: C#
+* إطار العمل: .NET / Windows Forms
+* بيئة التطوير: Visual Studio
+* طريقة التشغيل:
+  1. قم بتحميل أو استنساخ المستودع إلى جهازك.
+  2. افتح ملف الحل (.sln) باستخدام برنامج فيجوال ستوديو.
+  3. قم ببناء وتشغيل المشروع لاختبار المحاكاة وعرض مخطط جانت.
