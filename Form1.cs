@@ -173,7 +173,7 @@ namespace FCFS_SRTF_Project_University
         private void _SRTFAlgor()
         {
             if (!_ValidateProcesses()) return;
-
+             ganttTimeline.Clear();
             foreach(var p in Processes)
             {
                 p.RemainingTime = p.BurstTime;
